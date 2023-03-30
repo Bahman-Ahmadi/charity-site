@@ -1,0 +1,348 @@
+:root {
+    --color-gray-bg: #E0E0E0;
+    --color-gray-text: #727272;
+    
+    --color-main-bg: #7CB342;
+    --color-main-text: #33691E;
+    
+    --color-shadow-bg: #eee;
+    --color-shadow-text: #AEAEAE;
+    
+    --color-red-text: #E53935;
+}
+
+/* GLOBALS */
+* {
+    transition: .3s ease-in-out;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--color-gray-bg)!important;
+}
+p {
+    margin: 0;
+}
+.section-title {
+    font-family: vazir-b;
+    font-size: 19px;
+    text-align: center;
+    margin: 8px 0;
+    text-shadow: 0 0 8px var(--color-shadow-text);
+}
+.hr {
+    width: 90%;
+    height: 1px;
+    margin: 7vh auto;
+    background: var(--color-shadow-text);
+}
+
+/* HEADER */
+#header {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+.logo {
+    width: 110px;
+    height: 110px;
+}
+.site-title {
+    margin-top: 8px;
+    font-family: vazir-l;
+}
+.site-desc {
+    width: 80%;
+    font-size: 14px;
+    margin: 5px auto;
+    font-family: vazir-r;
+    overflow-wrap: break-word;
+    color: var(--color-gray-text);
+}
+.btn-contribute {
+    color: white;
+    padding: 4px;
+    font-size: 15px;
+    font-family: vazir-b;
+    border-radius: .25rem;
+    border-color: transparent;
+    background: var(--color-main-bg);
+}
+.btn-knowmore {
+    padding: 4px;
+    font-size: 15px;
+    font-family: vazir-b;
+    border-radius: .25rem;
+    background: transparent;
+    border-color: transparent;
+    color: var(--color-main-text);
+}
+
+/* SERVICES */
+#services {}
+.service {
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+}
+.service-title {
+    margin-top: 10%;
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: vazir-m;
+    color: var(--color-red-text);
+    text-shadow: 0px 0px 4px var(--color-red-text);
+}
+.service-desc {
+    width: 60%;
+    font-size: 11px;
+    font-family: vazir-t;
+    text-overflow: wrap;
+    overflow-wrap: break-word;
+}
+.s-content {
+    color:white;
+    height: 100%;
+    padding: 30px 0 8px 10px;
+    backdrop-filter: brightness(40%);
+}
+
+/* STATISTICS */
+#statistics {}
+.statistics-box {
+    display: flex;
+}
+.statistic {
+    margin: 0 auto;
+    text-align: center;
+}
+.statistic-number {
+    font-size: 18px;
+    font-family: vazir-b;
+    margin-bottom: 0 !important;
+    color: var(--color-main-text);
+}
+.statistic-title {
+    font-size: 14px;
+    font-family: vazir-r;
+    color: var(--color-gray-text);
+}
+
+/* MANAGEMENT */
+#management {}
+.managers {
+    display: flex;
+}
+.manager {
+    margin: 0 auto;
+    text-align: center;
+}
+.manager-avatar {
+    width: 85px;
+    height: 85px;
+    border-radius: 50px;
+}
+.manager-name {
+    font-family: vazir-b;
+    margin-bottom: 0 !important;
+}
+.manager-position {
+    font-size: 14px;
+    font-family: vazir-m;
+    color: var(--color-gray-text);
+}
+
+/* CONTRIBUTE */
+#contribute {
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contribute-content {
+    padding: 8px;
+    color: white;
+    text-align: center;
+    backdrop-filter: brightness(35%);
+}
+.laughing-face {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.sentence {
+    font-size: 20px;
+    font-family: vazir-l;
+    color: var(--color-main-bg);
+}
+.contribute-desc {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: vazir-i;
+    overflow-wrap: break-word;
+}
+.payment {
+    margin-top: 10px;
+    color: var(--color-main-bg);
+}
+.btn-copy {
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: .25rem;
+    border-color: transparent;
+    background: var(--color-main-bg);
+}
+
+.table {
+    margin: 16px 0;
+    text-align: center;
+    font-family: vazir-i !important;
+}
+
+/* HISTORY */
+#history {}
+.history-text {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: vazir-i;
+    overflow-wrap: break-word;
+}
+.heart {
+    color: var(--color-red-text);
+}
+#donating {
+    padding: 8px;
+    float: right;
+    font-size: 14px;
+    margin: 0 30px 0 0;
+    font-family: vazir-b;
+    border-radius: .35rem;
+    color: var(--color-main-text);
+    border: 1px solid var(--color-main-bg);
+}
+
+/* ASKING */
+#asking {
+    text-align: center;
+}
+.ask-desc {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: left;
+    font-family: vazir-i;
+    overflow-wrap: break-word;
+}
+.btn-telegram, .btn-mail {
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    font-size: 25px;
+    border-radius: 50px;
+    color: var(--color-main-bg);
+    border: 1px solid var(--color-main-bg);
+}
+
+/* FAQ */
+#FAQ {}
+.FAQs {
+    margin: 20px;
+    padding: 10px;
+    background: #F5F5F5;
+    border-radius: 1rem;
+    font-family: vazir-b;
+    box-shadow: 0 0 8px var(--color-shadow-box);
+}
+.faq-title {
+    padding: 10px;
+    margin: 0 !important;
+    border-bottom: 1px solid var(--color-gray-bg);
+}
+.faq-answer {
+    margin: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 1rem;
+    font-family: vazir-i;
+    box-shadow: 0 0 8px var(--color-shadow-box);
+}
+.bi-question-circle {
+    color: var(--color-main-bg);
+}
+.bi-chat {
+    color: var(--color-main-text);
+}
+
+/* FOOTER */
+#footer {
+    padding: 8px;
+    margin-top: 7vh;
+    text-align: center;
+    background: #F5F5F5;
+}
+.cols {
+    display: flex;
+}
+.column {
+    margin: 0 auto;
+}
+.footer-item {
+    color: black;
+    font-family: vazir-m;
+    text-decoration: none;
+}
+.ic {
+    margin: 0 4px;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--color-main-bg);
+}
+.copyright {
+    font-size: 11px;
+    font-family: vazir-t;
+    color: var(--color-gray-text);
+}
+
+
+/* FONTS */
+@font-face {
+    font-family: vazir-t;
+    src:url(../assets/fonts/vazir/thin.ttf);
+}
+@font-face {
+    font-family: vazir-i;
+    src:url(../assets/fonts/vazir/light.ttf);
+}
+@font-face {
+    font-family: vazir-r;
+    src:url(../assets/fonts/vazir/regular.ttf);
+}
+@font-face {
+    font-family: vazir-m;
+    src:url(../assets/fonts/vazir/medium.ttf);
+}
+@font-face {
+    font-family: vazir-b;
+    src:url(../assets/fonts/vazir/bold.ttf);
+}
+@font-face {
+    font-family: vazir-l;
+    src:url(../assets/fonts/vazir/black.ttf);
+}
+
+::selection {
+    text-decoration: underline;
+    color: var(--color-main-bg);
+    background: var(--color-main-text);
+}
+
+@media (min-width: 480px) {
+    .service-title {
+        margin-top: 0;
+    }
+}

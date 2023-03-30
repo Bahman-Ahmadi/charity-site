@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#7CB342">
+    <link rel="stylesheet" href="dist/css/index.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="msapplication-navbutton-color" content="#7CB342">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#7CB342">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/libs/bootstrap5/bootstrap5.min.css">
+    <link rel="stylesheet" href="dist/libs/bootstrap5/bootstrap-icons.css">
+
+    <title>Iranian Virtual Charity</title>
+</head>
+<body>
+    <div class="section" id="header">
+        <img src="dist/assets/logo.png" alt="[LOGO]" class="logo">
+        <p class="site-title"></p>
+        <p class="site-desc"></p>
+        <div class="buttons">
+            <a href="#contribute"><button class="btn-contribute">Contribute</button></a>
+            <a href="#services"><button class="btn-knowmore">Know more</button></a>
+        </div>
+    </div>
+    
+    <div class="hr"></div>
+    
+    <div class="section" id="services">
+        <p class="section-title">Our services</p>
+    </div>
+    
+    <div class="hr"></div>
+    
+    <div class="section" id="statistics">
+        <p class="section-title">Statistics</p>
+        <div class="statistics-box">
+            <div class="statistic">
+                <p class="statistic-number count1"></p>
+                <p class="statistic-title">Contributors</p>
+            </div>
+            <div class="statistic">
+                <p class="statistic-number count2">+900,000</p>
+                <p class="statistic-title">Supporting people</p>
+            </div>
+            <div class="statistic">
+                <p class="statistic-number count3">+300</p>
+                <p class="statistic-title">Working days</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="hr"></div>
+    
+    <div class="section" id="managment">
+        <p class="section-title">Management</p>
+        
+        <div class="managers" id="managers"></div>
+    </div>
+    
+    <div class="hr"></div>
+    
+    <p class="section-title">Contribute</p>
+    <div class="section" id="contribute">
+        <div class="contribute-content">
+            <img class="laughing-face" src="dist/assets/laughing-face.jpg" alt="[LAUGHING-FACE]">
+            <p class="sentence"></p>
+            <p class="contribute-desc"></p>
+        
+            <div class="payment"><i class="bi bi-cash"></i> USDT: <input type="text" class="wallet" value="" disabled/> <button class="btn-copy"><i class="bi bi-clipboard"></i></button></div>
+        </div>
+    </div>
+    
+    <br>
+    
+    <p class="section-title">Helping Boxes</p>
+    
+    <table class="table table-striped" id="boxes">
+        <tr>
+            <td><b>Title</b></td>
+            <td><b>Period</b></td>
+            <td><b>Price</b></td>
+        </tr>
+    </table>
+    
+    <div class="hr"></div>
+    
+    <div class="section" id="history">
+        <p class="section-title">Why we're ?</p>
+        
+        <p class="history-text"></p>
+        <button class="donating" id="donating"><i class="bi bi-heart-fill heart"></i> Donate Us :)</button>
+    </div>
+    
+    <div class="hr"></div>
+    
+    <div class="section" id="asking">
+        <p class="section-title">Watching for Help ?</p>
+        <div class="ask-desc"></div>
+        <br>
+        <div class="buttons">
+            <a class="telegram" href=""><button class="btn-telegram bi bi-telegram"></button></a>
+            <a class="email" href=""><button class="btn-mail bi bi-mailbox"></button></a>
+        </div>
+    </div>
+    
+    <div class="hr"></div>
+    
+    <div class="section" id="FAQ">
+        <p class="section-title">FAQ</p>
+        
+        <div class="FAQs" id="faqs"></div>
+    </div>
+    
+    <div class="section" id="footer">
+        <div class="cols">
+            <div class="column column-1">
+                <a class="footer-item" href="#header">GoTo Top</a><br>
+                <a class="footer-item" href="#services">Services</a><br>
+                <a class="footer-item" href="#statistics">Statistics</a>
+            </div>
+            <div class="column column-2">
+                <a class="footer-item" href="#managment">Management</a><br>
+                <a class="footer-item" href="#contribute">Contribute</a><br>
+                <a class="footer-item" href="#history">History</a>
+            </div>
+            <div class="column column-3">
+                <a class="footer-item" href="#asking">Support</a><br>
+                <a class="footer-item" href="#FAQ">FAQ</a><br>
+                <a class="footer-item donating">Wallet</a>
+            </div>
+        </div>
+        <br>
+        <div class="icons">
+            <a class="ic bi bi-telegram telegram"></a>
+            <a href="" class="ic bi bi-link"></a>
+            <a class="ic bi bi-mailbox email"></a>
+        </div>
+        <p class="copyright">All rights reserved ©</p>
+    </div>
+    <script src="dist/libs/jQuery3/jquery-3.6.3.min.js"></script>
+    <script src="dist/js/index.js"></script>
+</body>
+</html>

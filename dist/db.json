@@ -1,0 +1,103 @@
+{
+    "name": "Iranian Virtual Charity (IVC)",
+    "description": "The virtual charity of Iranians is formed and guided with the help of people from all over the world with the aim of improving the livelihood and social conditions of vulnerable people. Our goal is to help working children, drug addicts, the poor, abusive families, etc.",
+    "services": [
+        {
+            "image": "dist/assets/s1.jpg",
+            "title": "Working Children",
+            "description": "Due to the deterioration of the existing economic situation due to the incompetence of the government and US sanctions, children are working more and more daily. This process must end and we will."
+        },
+        {
+            "image": "dist/assets/s2.jpg",
+            "title": "Addicts",
+            "description": "Addicts often turn to addiction to avoid stress. Due to the continuous increase of stress in Iran, it causes more and more addicts. We want to provide conditions for them to quit addiction."
+        },
+        {
+            "image": "dist/assets/s3.jpg",
+            "title": "Abusive Families",
+            "description": "In these families, women and children do not have their basic rights and they constantly face domestic violence. We break this chain by treating their guardian or rescuing them from that home."
+        },
+        {
+            "image": "dist/assets/s4.jpg",
+            "title": "Poors",
+            "description": "Now this title is no longer given to a small segment of the society, unfortunately, the general public is below the poverty line. However, we want to help them as much as we can. We will do this with entrepreneurship, pension payments, supporting families, etc."
+        }
+    ],
+    "statistics": {
+        "contributors": "+500",
+        "supporting": "+900000",
+        "start_date": "2023/1/1"
+    },
+    "managers": [
+        {
+            "avatar": "https://avatars.githubusercontent.com/u/75687940?v=4",
+            "name": "Bahman Ahmadi",
+            "position": "Programmer"
+        },
+        {
+            "avatar": "dist/assets/ali.jpg",
+            "name": "Ali Najafi",
+            "position": "CEO"
+        },
+        {
+            "avatar": "dist/assets/mina.jpg",
+            "name": "Mina Afshar",
+            "position": "Public Relations"
+        }
+    ],
+    "contribute": {
+        "sentence": "Be the reason for a smile...",
+        "description": "Poverty, addiction, domestic violence, etc. are increasing daily in Iran, and the government does not take care of them as much as it should. The people of the world help us in improving the situation of Iranian society. Join us to bring a smile to a face...",
+        "wallet": "0x7f7Bfd6C020C2b9Ee2527A0b8ef317D13dE94c94",
+        "boxes": [
+            {
+                "title": "Stationery per poor student",
+                "period": "Yearly",
+                "price": "$5"
+            },
+            {
+                "title": "The cost of de-addiction camp for each addict",
+                "period": "Monthly",
+                "price": "$10"
+            },
+            {
+                "title": "Annual tuition for each poor student",
+                "period": "Yearly",
+                "price": "$30"
+            },
+            {
+                "title": "Foodstuffs for each poor family",
+                "period": "Monthly",
+                "price": "$60"
+            },
+            {
+                "title": "Full support for every poor family",
+                "period": "Monthly",
+                "price": "$150"
+            }
+        ]
+    },
+    "history": {
+        "description": "Iranian virtual charity was formed with the aim of helping the poor, drug addicts, abusive families, etc. in Iran. People from all over the world participate in our charity and help the people of Iran. We have contributions from Asia, Europe and America and our benefactors are added daily. We help Iranian needy weekly and confidentially.",
+        "wallet": "0x7f7Bfd6C020C2b9Ee2527A0b8ef317D13dE94c94"
+    },
+    "asking": {
+        "description": "Do you have any question? Do you want to join us? Or just say hello :)",
+        "telegram": "https://t.me/iricharity",
+        "email": "mailto:iricharity@gmail.com"
+    },
+    "FAQ": [
+        {
+            "q": "How do you find your coverage?",
+            "a": "By local search by our representatives in each city of Iran, we find qualified people and put them in our support list and provide them with financial assistance on a weekly basis."
+        },
+        {
+            "q": "Where is your charity located?",
+            "a": "We are in Iran, but we operate as a virtual coherent network and we do not establish an organization to remain completely independent from the government."
+        },
+        {
+            "q": "How can I join you?",
+            "a": "We are happy and grateful that you want to help the people of Iran, you can help us through the <a href=\"#contribute\">contribution section</a> on the charity site or in sync with the <a href=\"https://t.me/iricharity\">charity support</a> on Telegram. We will not forget your kindness :)"
+        }
+    ]
+}
